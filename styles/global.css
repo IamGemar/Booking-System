@@ -44,3 +44,14 @@
     width: 30px;
     height: 30px;
 }
+@media(max-width:767px){
+    #hero-image{
+        display: none;
+    }
+    #Home{
+        background-image: url('../assets/images/trippings.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
